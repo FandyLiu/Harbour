@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="IconLabelView" customModule="Demo111" customModuleProvider="target">
+            <connections>
+                <outlet property="imageView" destination="qsJ-be-HAo" id="iPR-RQ-9FY"/>
+                <outlet property="titleLabel" destination="S6g-su-lyw" id="YAK-0Q-sQG"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="380" height="40"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qsJ-be-HAo">
+                    <rect key="frame" x="10" y="8.5" width="24" height="24"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="24" id="NoZ-u0-yR5"/>
+                        <constraint firstAttribute="width" constant="24" id="UWu-e3-FQw"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S6g-su-lyw">
+                    <rect key="frame" x="42" y="9.5" width="44.5" height="21"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="qsJ-be-HAo" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="F11-R7-7qW"/>
+                <constraint firstItem="S6g-su-lyw" firstAttribute="leading" secondItem="qsJ-be-HAo" secondAttribute="trailing" constant="8" id="cVz-Us-zT8"/>
+                <constraint firstItem="qsJ-be-HAo" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="evN-M8-Lyo"/>
+                <constraint firstItem="S6g-su-lyw" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="yNP-f3-A0L"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="674" y="-275"/>
+        </view>
+    </objects>
+</document>
