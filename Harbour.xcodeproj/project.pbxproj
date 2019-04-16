@@ -23,6 +23,7 @@
 		31B2038822642AFE00B70C8C /* AddPlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B2038622642AFE00B70C8C /* AddPlanViewController.swift */; };
 		31B2038922642AFE00B70C8C /* AddPlanViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31B2038722642AFE00B70C8C /* AddPlanViewController.xib */; };
 		31B2038C22642CB800B70C8C /* FDOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B2038B22642CB800B70C8C /* FDOperator.swift */; };
+		31B2038E22647A3800B70C8C /* SelfAware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B2038D22647A3800B70C8C /* SelfAware.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		31B2038622642AFE00B70C8C /* AddPlanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPlanViewController.swift; sourceTree = "<group>"; };
 		31B2038722642AFE00B70C8C /* AddPlanViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddPlanViewController.xib; sourceTree = "<group>"; };
 		31B2038B22642CB800B70C8C /* FDOperator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FDOperator.swift; sourceTree = "<group>"; };
+		31B2038D22647A3800B70C8C /* SelfAware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfAware.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				31B203742264275800B70C8C /* Xib */,
+				31B2038D22647A3800B70C8C /* SelfAware.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 				31B203772264276D00B70C8C /* FDXibBaseView.swift in Sources */,
 				31B2038122642AF700B70C8C /* IconLabelView.swift in Sources */,
 				31B203642264243F00B70C8C /* ViewController.swift in Sources */,
+				31B2038E22647A3800B70C8C /* SelfAware.swift in Sources */,
 				31B203622264243F00B70C8C /* AppDelegate.swift in Sources */,
 				31B2038222642AF700B70C8C /* ImageInnerTitleView.swift in Sources */,
 				31B203782264276D00B70C8C /* FDXibCell.swift in Sources */,
@@ -367,7 +371,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.fandy.Harbour;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -385,7 +389,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.fandy.Harbour;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
